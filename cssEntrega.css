@@ -1,0 +1,77 @@
+.matcha{
+    color:#889e19
+}
+
+.matcha-bold{
+    color:#889e19;
+    font-weight: bold;
+}
+
+body {
+    font-family: Archivo;
+}
+
+footer {
+    font-family: Archivo;
+}
+
+.is-valid,
+.is-valid:focus,
+.was-validated .form-control:valid,
+.was-validated .form-select:valid {
+    border-color: #889e19 !important;
+    box-shadow: 0 0 5px #889e19 !important;
+}
+
+.valid-feedback {
+    color: #889e19 !important;
+    font-weight: bold;
+}
+
+.is-invalid,
+.is-invalid:focus,
+.was-validated .form-control:invalid,
+.was-validated .form-select:invalid {
+    border-color: #800000 !important;
+    box-shadow: 0 0 5px #800000 !important;
+}
+
+.invalid-feedback {
+    color: #800000 !important;
+    font-weight: bold;
+}
+
+.btn-light.border-black:hover {
+    background-color: #889e19 !important;
+    border-color: #889e19 !important;
+    color: white !important;
+}
+
+.active:hover {
+    color: #c6e916 !important;
+}
+
+.link {
+    color: #889e19;
+}
+.link:hover {
+    color: #c6e916;
+    transition: color 0.1s ease-in-out;
+}
+
+.input-group-text {
+    background-color: #718317;
+    color: white;
+    border-color: #718317;
+}
+
+.form-control {
+    border-color: #718317;
+    box-shadow: inset 0 0 5px #718317;  
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(113, 131, 23, 0.5);
+    border-color: #8f9b56;
+}
